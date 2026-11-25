@@ -12,6 +12,13 @@ Shared team tooling: Claude Code skills, helper scripts and Postman collections 
 
 Each directory's README covers its conventions and how to use what's in it.
 
+## Installing skills
+
+Two ways to get the skills in this repo into Claude:
+
+- **Symlink** a skill from your clone, for developing and trying skills out: see [Using a skill](./skills/README.md#using-a-skill).
+- **Install from a marketplace** with your company login, no clone or GitHub account needed, once a skill is published: see [Publishing a skill to a marketplace](./skills/README.md#publishing-a-skill-to-a-marketplace).
+
 ## Contributing
 
 - Never commit credentials, tokens, `.env` files or customer data.

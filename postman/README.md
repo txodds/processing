@@ -2,7 +2,7 @@
 
 [← Back to repo README](../README.md)
 
-Collections and environments for txodds APIs, exported from Postman so they can be reviewed in PRs and imported by anyone on the team.
+Collections and environments for TxODDS APIs, exported from Postman so they can be reviewed in PRs and imported by anyone on the team.
 
 ```
 postman/

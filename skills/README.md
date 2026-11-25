@@ -57,7 +57,7 @@ ln -s "$PWD/skills/<skill-name>" /path/to/project/.claude/skills/<skill-name>
 
 ## Publishing a skill to a marketplace
 
-Symlinking needs a clone of this repo and a terminal. To let anyone at TXOdds install a skill from Claude under their company login, with no GitHub account, publish it as a plugin in a marketplace synced to the TXOdds Claude organisation. Synced marketplaces show up in `/plugin` in Claude Code and in the Claude desktop app's plugin directory.
+Symlinking needs a clone of this repo and a terminal. To let anyone at TxODDS install a skill from Claude under their company login, with no GitHub account, publish it as a plugin in a marketplace synced to the TxODDS Claude organisation. Synced marketplaces show up in `/plugin` in Claude Code and in the Claude desktop app's plugin directory.
 
 Where it goes depends on what the skill depends on, following [Sharing Claude Plugins: Quickstart](https://txodds.atlassian.net/wiki/spaces/BIGDATA/pages/5552537609/Sharing+Claude+Plugins+Quickstart):
 
@@ -66,7 +66,7 @@ Where it goes depends on what the skill depends on, following [Sharing Claude Pl
 
 Keep developing a skill here and publish it once it is stable. Plugin skills are namespaced, so `/<skill-name>` becomes `/<plugin>:<skill-name>`.
 
-To see which marketplaces you have added, and the TXOdds ones you have not:
+To see which marketplaces you have added, and the TxODDS ones you have not:
 
 ```sh
 claude plugin marketplace list
